@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.6.0-web/css/all.min.css">
+    <script src="./main.js" defer></script>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="content-main">
+         <section class="content-title">
+            <img src="./imgs/images.jpg" alt="" style="border: 1px solid transparent;" class="img-title">
+            <h3 class="name-song">外婆桥</h3>
+            <p class="name-singer">52hz
+            </p>
+         </section>
+         <section class="song">
+         <audio controls class="audioControl">
+            <source src="./audio/songTest.mp3" type="audio/mp3">  
+         </audio>
+         <div class="control-song">
+            <input type="range" id="progress" value="0" max="100">
+            <div class="control">
+                <div class="control-item"><i class="fa-solid fa-backward ctrl-back"></i> </div>    
+                <div class="control-item"><i class="fa-solid fa-play ctrl-play"></i></div>
+                <div class="control-item"><i class="fa-solid fa-forward ctrl-forward"></i> </div>      
+            </div>
+            
+         </div>
+        </section>
+     </div>
+    </div>
+    </div>
+</body>
+</html>
